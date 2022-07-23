@@ -1,0 +1,20 @@
+root - INFO - **********
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/trained_models/18/model.pth
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/trained_models/18/model.pth
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/../trained_models/18/model.pth
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/../trained_models/18/model.pth
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/trained_models/18/model.pth
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/trained_models/18/model.pth
+root - INFO - 
+
+root - INFO - STATISTICS : 
+
+root - INFO - Evaluation: {'macroPrec': 0.44659523533099055, 'microPrec': 0.6848249027237354, 'samplePrec': 0.6961467038068709, 'macroRec': 0.30613683311656187, 'microRec': 0.5876460767946577, 'sampleRec': 0.6211699164345403, 'macroF1': 0.31787084198392984, 'microF1': 0.632524707996406, 'sampleF1': 0.6172171375513994, 'HammingLoss': 0.10357052418333755, 'subsetAcc': 0.2757660167130919, 'coverageError': 6.927576601671309, 'rankLoss': 0.39944179157271076}
+root - INFO - **********
+root - INFO - Loading model files from folder: /home/henry/Documents/marine-debris/multi-label/resnet/trained_models/18/model.pth

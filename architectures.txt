@@ -1,0 +1,18 @@
+Unet
+RF SI, SS, GLCM
+FCN
+
+Mask RCNN
+GoogLeNet
+
+
+UNet - baseline
+SegNet - VGGNet backbone
+DeepLabv3 - ResNet backbone
+
+Unet -
+Re
+
+gpgp
+https://medium.com/analytics-vidhya/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5
+{"type":"Polygon","coordinates":[[[-136.94458,29.099377],[-148.172607,29.099377],[-148.172607,35.590319],[-136.94458,35.590319],[-136.94458,29.099377]]]}

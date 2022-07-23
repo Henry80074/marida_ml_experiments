@@ -1,0 +1,386 @@
+root - INFO - **********
+root - INFO - parsed input parameters:
+root - INFO - {
+  "agg_to_water": true,
+  "mode": "train",
+  "epochs": 45,
+  "batch": 5,
+  "resume_from_epoch": 0,
+  "input_channels": 11,
+  "output_channels": 11,
+  "hidden_channels": 16,
+  "weight_param": 1.03,
+  "lr": 0.0002,
+  "decay": 0,
+  "reduce_lr_on_plateau": 0,
+  "lr_steps": [
+    40
+  ],
+  "checkpoint_path": "/home/henry/Documents/marine-debris/semantic_segmentation/unet/trained_models",
+  "eval_every": 1,
+  "num_workers": 1,
+  "pin_memory": false,
+  "prefetch_factor": 1,
+  "persistent_workers": true,
+  "tensorboard": "tsboard_segm"
+}
+root - INFO - Training loss was: 2.5261345280694
+root - INFO - 
+
+root - INFO - Test loss was: 1.681562813424472
+root - INFO - STATISTICS AFTER EPOCH 1: 
+
+root - INFO - Evaluation: {'macroPrec': 0.2870806762572069, 'microPrec': 0.6281217445167103, 'weightPrec': 0.6965855453274457, 'macroRec': 0.32642759073050615, 'microRec': 0.6281217445167103, 'weightRec': 0.6281217445167103, 'macroF1': 0.18671337709768768, 'microF1': 0.6281217445167103, 'weightF1': 0.5865637956211707, 'subsetAcc': 0.6281217445167103, 'IoU': 0.1404649162859031}
+root - INFO - Saving models
+root - INFO - Training loss was: 2.1216576326133882
+root - INFO - 
+
+root - INFO - Test loss was: 1.113426722822012
+root - INFO - STATISTICS AFTER EPOCH 2: 
+
+root - INFO - Evaluation: {'macroPrec': 0.31119846444499394, 'microPrec': 0.651969479404229, 'weightPrec': 0.7583921314942916, 'macroRec': 0.3411487903982771, 'microRec': 0.651969479404229, 'weightRec': 0.651969479404229, 'macroF1': 0.21419535423740213, 'microF1': 0.651969479404229, 'weightF1': 0.6028999507250165, 'subsetAcc': 0.651969479404229, 'IoU': 0.1645006729129992}
+root - INFO - Saving models
+root - INFO - Training loss was: 2.0039602157361913
+root - INFO - 
+
+root - INFO - Test loss was: 1.292955132535713
+root - INFO - STATISTICS AFTER EPOCH 3: 
+
+root - INFO - Evaluation: {'macroPrec': 0.35071823235684935, 'microPrec': 0.6589473585419189, 'weightPrec': 0.6377782194516207, 'macroRec': 0.3960907094313672, 'microRec': 0.6589473585419189, 'weightRec': 0.6589473585419189, 'macroF1': 0.2712530736857021, 'microF1': 0.6589473585419189, 'weightF1': 0.6062288357800807, 'subsetAcc': 0.6589473585419189, 'IoU': 0.20077668652608568}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.8979865989355258
+root - INFO - 
+
+root - INFO - Test loss was: 0.9984287967934823
+root - INFO - STATISTICS AFTER EPOCH 4: 
+
+root - INFO - Evaluation: {'macroPrec': 0.41339618874050965, 'microPrec': 0.6823211419883436, 'weightPrec': 0.7853504742357799, 'macroRec': 0.428837325353306, 'microRec': 0.6823211419883436, 'weightRec': 0.6823211419883436, 'macroF1': 0.3133623403888905, 'microF1': 0.6823211419883436, 'weightF1': 0.6452306609690179, 'subsetAcc': 0.6823211419883436, 'IoU': 0.24827185984029262}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.8092176185904731
+root - INFO - 
+
+root - INFO - Test loss was: 1.0354633325033546
+root - INFO - STATISTICS AFTER EPOCH 5: 
+
+root - INFO - Evaluation: {'macroPrec': 0.4595450222368321, 'microPrec': 0.8129158806580886, 'weightPrec': 0.8489546427331698, 'macroRec': 0.46028673583083607, 'microRec': 0.8129158806580886, 'weightRec': 0.8129158806580886, 'macroF1': 0.4177065938443645, 'microF1': 0.8129158806580887, 'weightF1': 0.8005251172584714, 'subsetAcc': 0.8129158806580886, 'IoU': 0.3380884665615546}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.7400200377280155
+root - INFO - 
+
+root - INFO - Test loss was: 0.9067066505282406
+root - INFO - STATISTICS AFTER EPOCH 6: 
+
+root - INFO - Evaluation: {'macroPrec': 0.4156314166134553, 'microPrec': 0.821484547305985, 'weightPrec': 0.8849290150210509, 'macroRec': 0.49145043948139266, 'microRec': 0.821484547305985, 'weightRec': 0.821484547305985, 'macroF1': 0.3715722039060154, 'microF1': 0.821484547305985, 'weightF1': 0.8294684298042114, 'subsetAcc': 0.821484547305985, 'IoU': 0.30208924393504144}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.6818559963352742
+root - INFO - 
+
+root - INFO - Test loss was: 0.8668871671740345
+root - INFO - STATISTICS AFTER EPOCH 7: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5140601502616545, 'microPrec': 0.909611359818303, 'weightPrec': 0.9428998825658239, 'macroRec': 0.5856315932239318, 'microRec': 0.909611359818303, 'weightRec': 0.909611359818303, 'macroF1': 0.5014074508698568, 'microF1': 0.909611359818303, 'weightF1': 0.9225434182085527, 'subsetAcc': 0.909611359818303, 'IoU': 0.4159439127183296}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.6175466339595037
+root - INFO - 
+
+root - INFO - Test loss was: 0.7254619942263129
+root - INFO - STATISTICS AFTER EPOCH 8: 
+
+root - INFO - Evaluation: {'macroPrec': 0.49140496293891284, 'microPrec': 0.8819720134020328, 'weightPrec': 0.9378709336200893, 'macroRec': 0.5879129258755917, 'microRec': 0.8819720134020328, 'weightRec': 0.8819720134020328, 'macroF1': 0.44660712949374376, 'microF1': 0.8819720134020328, 'weightF1': 0.9000931123903299, 'subsetAcc': 0.8819720134020328, 'IoU': 0.36223185311386064}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.5147386619268302
+root - INFO - 
+
+root - INFO - Test loss was: 1.0525325245246866
+root - INFO - STATISTICS AFTER EPOCH 9: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5970287574711297, 'microPrec': 0.8904421356908898, 'weightPrec': 0.9006295083980489, 'macroRec': 0.5549540016580522, 'microRec': 0.8904421356908898, 'weightRec': 0.8904421356908898, 'macroF1': 0.5516183373573038, 'microF1': 0.8904421356908898, 'weightF1': 0.8895181773105306, 'subsetAcc': 0.8904421356908898, 'IoU': 0.44882927443420556}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.4294061196984063
+root - INFO - 
+
+root - INFO - Test loss was: 1.0672775190363972
+root - INFO - STATISTICS AFTER EPOCH 10: 
+
+root - INFO - Evaluation: {'macroPrec': 0.40198768513782673, 'microPrec': 0.8386922694296628, 'weightPrec': 0.8858544384234321, 'macroRec': 0.5195781980630577, 'microRec': 0.8386922694296628, 'weightRec': 0.8386922694296628, 'macroF1': 0.4247667336617227, 'microF1': 0.8386922694296628, 'weightF1': 0.8550142752707046, 'subsetAcc': 0.8386922694296628, 'IoU': 0.3375018737411792}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.4883003712387524
+root - INFO - 
+
+root - INFO - Test loss was: 1.1244308990874625
+root - INFO - STATISTICS AFTER EPOCH 11: 
+
+root - INFO - Evaluation: {'macroPrec': 0.40229845543302767, 'microPrec': 0.7706544283957917, 'weightPrec': 0.8489885772874591, 'macroRec': 0.49400502904738414, 'microRec': 0.7706544283957917, 'weightRec': 0.7706544283957917, 'macroF1': 0.36011873475987394, 'microF1': 0.7706544283957916, 'weightF1': 0.791194583714805, 'subsetAcc': 0.7706544283957917, 'IoU': 0.26990712781963083}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.3326490064519283
+root - INFO - 
+
+root - INFO - Test loss was: 0.6506746024157114
+root - INFO - STATISTICS AFTER EPOCH 12: 
+
+root - INFO - Evaluation: {'macroPrec': 0.4491799856202462, 'microPrec': 0.8944073729950915, 'weightPrec': 0.9076389186968179, 'macroRec': 0.5408766114193835, 'microRec': 0.8944073729950915, 'weightRec': 0.8944073729950915, 'macroF1': 0.4504402511222905, 'microF1': 0.8944073729950915, 'weightF1': 0.8941865606941517, 'subsetAcc': 0.8944073729950915, 'IoU': 0.3647381467806266}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.3666376796167248
+root - INFO - 
+
+root - INFO - Test loss was: 1.113498972008918
+root - INFO - STATISTICS AFTER EPOCH 13: 
+
+root - INFO - Evaluation: {'macroPrec': 0.4447542976870434, 'microPrec': 0.842399414364952, 'weightPrec': 0.8620876433182982, 'macroRec': 0.4822778925871086, 'microRec': 0.842399414364952, 'weightRec': 0.842399414364952, 'macroF1': 0.41439684276489347, 'microF1': 0.842399414364952, 'weightF1': 0.8415178145339354, 'subsetAcc': 0.842399414364952, 'IoU': 0.3204474277479186}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.2286549244902663
+root - INFO - 
+
+root - INFO - Test loss was: 0.49550105772446174
+root - INFO - STATISTICS AFTER EPOCH 14: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6321606676243848, 'microPrec': 0.9149749885031581, 'weightPrec': 0.9346373727053456, 'macroRec': 0.6434025840614169, 'microRec': 0.9149749885031581, 'weightRec': 0.9149749885031581, 'macroF1': 0.5781261516156821, 'microF1': 0.9149749885031581, 'weightF1': 0.9195820563520845, 'subsetAcc': 0.9149749885031581, 'IoU': 0.47693776236343693}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.2820827701593338
+root - INFO - 
+
+root - INFO - Test loss was: 0.5102943789846962
+root - INFO - STATISTICS AFTER EPOCH 15: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5588965553403724, 'microPrec': 0.9280344623701327, 'weightPrec': 0.9474253810469814, 'macroRec': 0.556671502802886, 'microRec': 0.9280344623701327, 'weightRec': 0.9280344623701327, 'macroF1': 0.4852123610304218, 'microF1': 0.9280344623701327, 'weightF1': 0.9329805136535572, 'subsetAcc': 0.9280344623701327, 'IoU': 0.4069028958772909}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.212314522403805
+root - INFO - 
+
+root - INFO - Test loss was: 0.5052458834752628
+root - INFO - STATISTICS AFTER EPOCH 16: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5108758998130628, 'microPrec': 0.8686638323431971, 'weightPrec': 0.8892858770875851, 'macroRec': 0.5237068045397163, 'microRec': 0.8686638323431971, 'weightRec': 0.8686638323431971, 'macroF1': 0.4568141022805815, 'microF1': 0.868663832343197, 'weightF1': 0.8668513568405175, 'subsetAcc': 0.8686638323431971, 'IoU': 0.3557037023494372}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.1388090488202978
+root - INFO - 
+
+root - INFO - Test loss was: 0.5258270488899799
+root - INFO - STATISTICS AFTER EPOCH 17: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5450335868709978, 'microPrec': 0.9201086803502548, 'weightPrec': 0.9404307472239876, 'macroRec': 0.5390091371187924, 'microRec': 0.9201086803502548, 'weightRec': 0.9201086803502548, 'macroF1': 0.4852192536982925, 'microF1': 0.9201086803502548, 'weightF1': 0.9239940694541697, 'subsetAcc': 0.9201086803502548, 'IoU': 0.39554700491426137}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.0744530921023585
+root - INFO - 
+
+root - INFO - Test loss was: 0.4177689429373353
+root - INFO - STATISTICS AFTER EPOCH 18: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5604010826090602, 'microPrec': 0.9370254619853403, 'weightPrec': 0.9601161887048697, 'macroRec': 0.5934557537040066, 'microRec': 0.9370254619853403, 'weightRec': 0.9370254619853403, 'macroF1': 0.5275066317227369, 'microF1': 0.9370254619853403, 'weightF1': 0.9449081908081539, 'subsetAcc': 0.9370254619853403, 'IoU': 0.4366636337034008}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.0859157650889855
+root - INFO - 
+
+root - INFO - Test loss was: 0.5071683340323869
+root - INFO - STATISTICS AFTER EPOCH 19: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6000959321686667, 'microPrec': 0.8974857110679393, 'weightPrec': 0.9157204803104309, 'macroRec': 0.5069351092108221, 'microRec': 0.8974857110679393, 'weightRec': 0.8974857110679393, 'macroF1': 0.4998770013918192, 'microF1': 0.8974857110679393, 'weightF1': 0.8995853025874141, 'subsetAcc': 0.8974857110679393, 'IoU': 0.400041138629386}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.086147418540905
+root - INFO - 
+
+root - INFO - Test loss was: 0.5308999733768637
+root - INFO - STATISTICS AFTER EPOCH 20: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5171439691429313, 'microPrec': 0.9104231776332461, 'weightPrec': 0.9216116328665543, 'macroRec': 0.47992124560483673, 'microRec': 0.9104231776332461, 'weightRec': 0.9104231776332461, 'macroF1': 0.4494050498055025, 'microF1': 0.9104231776332461, 'weightF1': 0.9126611770954525, 'subsetAcc': 0.9104231776332461, 'IoU': 0.3728830801067246}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.0607545924633313
+root - INFO - 
+
+root - INFO - Test loss was: 0.4762932932542108
+root - INFO - STATISTICS AFTER EPOCH 21: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5452364124250351, 'microPrec': 0.9435763155671931, 'weightPrec': 0.9580152320859241, 'macroRec': 0.5562706728364715, 'microRec': 0.9435763155671931, 'weightRec': 0.9435763155671931, 'macroF1': 0.49910441286279017, 'microF1': 0.9435763155671931, 'weightF1': 0.9487706076267802, 'subsetAcc': 0.9435763155671931, 'IoU': 0.4263993516568647}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.987165267598045
+root - INFO - 
+
+root - INFO - Test loss was: 0.47847461801579
+root - INFO - STATISTICS AFTER EPOCH 22: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5850608113691665, 'microPrec': 0.9238252104625954, 'weightPrec': 0.9403841191972111, 'macroRec': 0.5498764276874438, 'microRec': 0.9238252104625954, 'weightRec': 0.9238252104625954, 'macroF1': 0.5174163409682384, 'microF1': 0.9238252104625954, 'weightF1': 0.92883634432588, 'subsetAcc': 0.9238252104625954, 'IoU': 0.42659807325841403}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.012842379832474
+root - INFO - 
+
+root - INFO - Test loss was: 0.4854793426858513
+root - INFO - STATISTICS AFTER EPOCH 23: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5020756841126787, 'microPrec': 0.8812493547690777, 'weightPrec': 0.8958238805774619, 'macroRec': 0.4757819602233689, 'microRec': 0.8812493547690777, 'weightRec': 0.8812493547690777, 'macroF1': 0.43728643308510945, 'microF1': 0.8812493547690776, 'weightF1': 0.8786741385963168, 'subsetAcc': 0.8812493547690777, 'IoU': 0.3532966001688348}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.9779246081879915
+root - INFO - 
+
+root - INFO - Test loss was: 0.448727166695977
+root - INFO - STATISTICS AFTER EPOCH 24: 
+
+root - INFO - Evaluation: {'macroPrec': 0.46032412891731395, 'microPrec': 0.9082223536147009, 'weightPrec': 0.9372183717120672, 'macroRec': 0.5455079784439717, 'microRec': 0.9082223536147009, 'weightRec': 0.9082223536147009, 'macroF1': 0.46680736895107794, 'microF1': 0.9082223536147009, 'weightF1': 0.9192110500224165, 'subsetAcc': 0.9082223536147009, 'IoU': 0.3928371784958386}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.0233787979275761
+root - INFO - 
+
+root - INFO - Test loss was: 0.41049399821063787
+root - INFO - STATISTICS AFTER EPOCH 25: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6719970459737745, 'microPrec': 0.9401319555893421, 'weightPrec': 0.9598828190196727, 'macroRec': 0.6220579080563481, 'microRec': 0.9401319555893421, 'weightRec': 0.9401319555893421, 'macroF1': 0.5769296029929522, 'microF1': 0.9401319555893421, 'weightF1': 0.9473094741524171, 'subsetAcc': 0.9401319555893421, 'IoU': 0.4908126031331065}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.9199867973410087
+root - INFO - 
+
+root - INFO - Test loss was: 0.48249432161488004
+root - INFO - STATISTICS AFTER EPOCH 26: 
+
+root - INFO - Evaluation: {'macroPrec': 0.44867640968849504, 'microPrec': 0.8802216778819533, 'weightPrec': 0.896673761463966, 'macroRec': 0.4701511283979105, 'microRec': 0.8802216778819533, 'weightRec': 0.8802216778819533, 'macroF1': 0.4241653551776395, 'microF1': 0.8802216778819533, 'weightF1': 0.8803070067645281, 'subsetAcc': 0.8802216778819533, 'IoU': 0.34332209059195185}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.942465593388857
+root - INFO - 
+
+root - INFO - Test loss was: 0.4108888095321875
+root - INFO - STATISTICS AFTER EPOCH 27: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6444403804336374, 'microPrec': 0.9391699749415773, 'weightPrec': 0.959981398585509, 'macroRec': 0.5363352994510558, 'microRec': 0.9391699749415773, 'weightRec': 0.9391699749415773, 'macroF1': 0.5010948537843497, 'microF1': 0.9391699749415773, 'weightF1': 0.9447190519446322, 'subsetAcc': 0.9391699749415773, 'IoU': 0.4248660810212087}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8609442354450996
+root - INFO - 
+
+root - INFO - Test loss was: 0.5073055979750206
+root - INFO - STATISTICS AFTER EPOCH 28: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5373090935457424, 'microPrec': 0.8715920075832231, 'weightPrec': 0.8889111208892888, 'macroRec': 0.5429905286650643, 'microRec': 0.8715920075832231, 'weightRec': 0.8715920075832231, 'macroF1': 0.5073669338458737, 'microF1': 0.8715920075832231, 'weightF1': 0.8713951494580648, 'subsetAcc': 0.8715920075832231, 'IoU': 0.40813704420800645}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8706748626417661
+root - INFO - 
+
+root - INFO - Test loss was: 0.3216511577024031
+root - INFO - STATISTICS AFTER EPOCH 29: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6570249647981514, 'microPrec': 0.927053711368265, 'weightPrec': 0.9469055796015781, 'macroRec': 0.5977310139765625, 'microRec': 0.927053711368265, 'weightRec': 0.927053711368265, 'macroF1': 0.5709574055218266, 'microF1': 0.927053711368265, 'weightF1': 0.933230560048236, 'subsetAcc': 0.927053711368265, 'IoU': 0.471257953438446}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8846305990081699
+root - INFO - 
+
+root - INFO - Test loss was: 0.47965729929475803
+root - INFO - STATISTICS AFTER EPOCH 30: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6442127841312941, 'microPrec': 0.9401319555893421, 'weightPrec': 0.9571833539059668, 'macroRec': 0.6201091949496856, 'microRec': 0.9401319555893421, 'weightRec': 0.9401319555893421, 'macroF1': 0.5878635571653654, 'microF1': 0.9401319555893421, 'weightF1': 0.9454914936681647, 'subsetAcc': 0.9401319555893421, 'IoU': 0.489530265482466}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8330896135194157
+root - INFO - 
+
+root - INFO - Test loss was: 0.32013217114295506
+root - INFO - STATISTICS AFTER EPOCH 31: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6489202253753968, 'microPrec': 0.940859306810823, 'weightPrec': 0.9602296092271495, 'macroRec': 0.6186657164843405, 'microRec': 0.940859306810823, 'weightRec': 0.940859306810823, 'macroF1': 0.5885145077849852, 'microF1': 0.940859306810823, 'weightF1': 0.9469200914240246, 'subsetAcc': 0.940859306810823, 'IoU': 0.4853753095855527}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8210744814845258
+root - INFO - 
+
+root - INFO - Test loss was: 0.30053350003576496
+root - INFO - STATISTICS AFTER EPOCH 32: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6655817793549411, 'microPrec': 0.9497236065358373, 'weightPrec': 0.966926911346883, 'macroRec': 0.676883905711506, 'microRec': 0.9497236065358373, 'weightRec': 0.9497236065358373, 'macroF1': 0.6449956649308014, 'microF1': 0.9497236065358373, 'weightF1': 0.9558484494505032, 'subsetAcc': 0.9497236065358373, 'IoU': 0.5517763660060496}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8564391228925942
+root - INFO - 
+
+root - INFO - Test loss was: 0.42590742054550007
+root - INFO - STATISTICS AFTER EPOCH 33: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6272892368724124, 'microPrec': 0.9387101012660604, 'weightPrec': 0.9552995345609878, 'macroRec': 0.5412396484470329, 'microRec': 0.9387101012660604, 'weightRec': 0.9387101012660604, 'macroF1': 0.5089156560295185, 'microF1': 0.9387101012660604, 'weightF1': 0.9424309341914707, 'subsetAcc': 0.9387101012660604, 'IoU': 0.4366472034126103}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.7540435700835687
+root - INFO - 
+
+root - INFO - Test loss was: 0.2938565559071079
+root - INFO - STATISTICS AFTER EPOCH 34: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5717841391751021, 'microPrec': 0.9409250030501826, 'weightPrec': 0.956395106910854, 'macroRec': 0.5586866274885361, 'microRec': 0.9409250030501826, 'weightRec': 0.9409250030501826, 'macroF1': 0.5124654790436463, 'microF1': 0.9409250030501826, 'weightF1': 0.945909857258509, 'subsetAcc': 0.9409250030501826, 'IoU': 0.4383339071556669}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8054766916490083
+root - INFO - 
+
+root - INFO - Test loss was: 0.2573117429811306
+root - INFO - STATISTICS AFTER EPOCH 35: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6856506519172151, 'microPrec': 0.950319565278599, 'weightPrec': 0.9666327936469342, 'macroRec': 0.5773111716350955, 'microRec': 0.950319565278599, 'weightRec': 0.950319565278599, 'macroF1': 0.5561353722413341, 'microF1': 0.950319565278599, 'weightF1': 0.9536936849194698, 'subsetAcc': 0.950319565278599, 'IoU': 0.4731869302669019}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.8562255226913035
+root - INFO - 
+
+root - INFO - Test loss was: 0.3073787881463626
+root - INFO - STATISTICS AFTER EPOCH 36: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6600074088172696, 'microPrec': 0.9459132246529831, 'weightPrec': 0.9631063108321898, 'macroRec': 0.6570790203310419, 'microRec': 0.9459132246529831, 'weightRec': 0.9459132246529831, 'macroF1': 0.6229353329167141, 'microF1': 0.9459132246529831, 'weightF1': 0.9514857483156278, 'subsetAcc': 0.9459132246529831, 'IoU': 0.523004650299586}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.7446925162581958
+root - INFO - 
+
+root - INFO - Test loss was: 0.3214747793649788
+root - INFO - STATISTICS AFTER EPOCH 37: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5357657121516726, 'microPrec': 0.9120608910287092, 'weightPrec': 0.9244650062513824, 'macroRec': 0.5610566270888199, 'microRec': 0.9120608910287092, 'weightRec': 0.9120608910287092, 'macroF1': 0.5066823489495929, 'microF1': 0.9120608910287092, 'weightF1': 0.9142787200835526, 'subsetAcc': 0.9120608910287092, 'IoU': 0.4115556906884273}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.7508681946426029
+root - INFO - 
+
+root - INFO - Test loss was: 0.30248921961418784
+root - INFO - STATISTICS AFTER EPOCH 38: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6572502299133528, 'microPrec': 0.933186924571332, 'weightPrec': 0.9475255749243349, 'macroRec': 0.5832637961626402, 'microRec': 0.933186924571332, 'weightRec': 0.933186924571332, 'macroF1': 0.591323913710586, 'microF1': 0.933186924571332, 'weightF1': 0.9354280132874742, 'subsetAcc': 0.933186924571332, 'IoU': 0.48515358779051376}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.7478869500696144
+root - INFO - 
+
+root - INFO - Test loss was: 0.29922869970040594
+root - INFO - STATISTICS AFTER EPOCH 39: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6736888110344373, 'microPrec': 0.9333230096385768, 'weightPrec': 0.9522307531760043, 'macroRec': 0.6545232616100489, 'microRec': 0.9333230096385768, 'weightRec': 0.9333230096385768, 'macroF1': 0.6349020773270183, 'microF1': 0.9333230096385768, 'weightF1': 0.936205387743986, 'subsetAcc': 0.9333230096385768, 'IoU': 0.5284699839552045}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.7682210580588075
+root - INFO - 
+
+root - INFO - Test loss was: 0.33977568906435046
+root - INFO - STATISTICS AFTER EPOCH 40: 
+
+root - INFO - Evaluation: {'macroPrec': 0.5141153550698362, 'microPrec': 0.9015823408508602, 'weightPrec': 0.924988095278042, 'macroRec': 0.47903366302596084, 'microRec': 0.9015823408508602, 'weightRec': 0.9015823408508602, 'macroF1': 0.45139149469945045, 'microF1': 0.9015823408508602, 'weightF1': 0.9073457323175403, 'subsetAcc': 0.9015823408508602, 'IoU': 0.37194242853056847}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.683955372453423
+root - INFO - 
+
+root - INFO - Test loss was: 0.26095814639601833
+root - INFO - STATISTICS AFTER EPOCH 41: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6553320631401345, 'microPrec': 0.9197332732682002, 'weightPrec': 0.9387309818063333, 'macroRec': 0.6409307306724557, 'microRec': 0.9197332732682002, 'weightRec': 0.9197332732682002, 'macroF1': 0.6150662832369009, 'microF1': 0.9197332732682002, 'weightF1': 0.9251329734131496, 'subsetAcc': 0.9197332732682002, 'IoU': 0.5057569383186095}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.6878790304021808
+root - INFO - 
+
+root - INFO - Test loss was: 0.2790137718595862
+root - INFO - STATISTICS AFTER EPOCH 42: 
+
+root - INFO - Evaluation: {'macroPrec': 0.661640490386496, 'microPrec': 0.9370583101050202, 'weightPrec': 0.9643621060618273, 'macroRec': 0.6211138781705409, 'microRec': 0.9370583101050202, 'weightRec': 0.9370583101050202, 'macroF1': 0.5862992248088952, 'microF1': 0.9370583101050202, 'weightF1': 0.9459948733500938, 'subsetAcc': 0.9370583101050202, 'IoU': 0.4876669653983415}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.6412750531514028
+root - INFO - 
+
+root - INFO - Test loss was: 0.28720122883485905
+root - INFO - STATISTICS AFTER EPOCH 43: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6663340141825166, 'microPrec': 0.9434026897917429, 'weightPrec': 0.9672019955180243, 'macroRec': 0.6322793390795637, 'microRec': 0.9434026897917429, 'weightRec': 0.9434026897917429, 'macroF1': 0.5997411329689312, 'microF1': 0.9434026897917429, 'weightF1': 0.9517268564147812, 'subsetAcc': 0.9434026897917429, 'IoU': 0.5025452083926577}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.6620805779692075
+root - INFO - 
+
+root - INFO - Test loss was: 0.28199999995496156
+root - INFO - STATISTICS AFTER EPOCH 44: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6837178525988592, 'microPrec': 0.9413520286060196, 'weightPrec': 0.9649362502748571, 'macroRec': 0.6635196873281478, 'microRec': 0.9413520286060196, 'weightRec': 0.9413520286060196, 'macroF1': 0.6358946923439804, 'microF1': 0.9413520286060196, 'weightF1': 0.9495033467073795, 'subsetAcc': 0.9413520286060196, 'IoU': 0.534512243358982}
+root - INFO - Saving models
+root - INFO - Training loss was: 0.6692994810232855
+root - INFO - 
+
+root - INFO - Test loss was: 0.3222882567903692
+root - INFO - STATISTICS AFTER EPOCH 45: 
+
+root - INFO - Evaluation: {'macroPrec': 0.6278394170888475, 'microPrec': 0.9282550140308397, 'weightPrec': 0.9519122091826812, 'macroRec': 0.5746756318204037, 'microRec': 0.9282550140308397, 'weightRec': 0.9282550140308397, 'macroF1': 0.543090020925965, 'microF1': 0.9282550140308397, 'weightF1': 0.9344614876394316, 'subsetAcc': 0.9282550140308397, 'IoU': 0.4476032921542616}
+root - INFO - Saving models

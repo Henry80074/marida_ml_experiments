@@ -1,0 +1,136 @@
+root - INFO - **********
+root - INFO - parsed input parameters:
+root - INFO - {
+  "agg_to_water": true,
+  "mode": "train",
+  "epochs": 45,
+  "batch": 5,
+  "resume_from_epoch": 0,
+  "input_channels": 11,
+  "output_channels": 11,
+  "hidden_channels": 16,
+  "weight_param": 1.03,
+  "lr": 0.0002,
+  "decay": 0,
+  "reduce_lr_on_plateau": 0,
+  "lr_steps": [
+    40
+  ],
+  "checkpoint_path": "/home/henry/Documents/marine-debris/semantic_segmentation/SegNet/trained_models",
+  "eval_every": 1,
+  "num_workers": 1,
+  "pin_memory": false,
+  "prefetch_factor": 1,
+  "persistent_workers": true,
+  "tensorboard": "tsboard_segm"
+}
+root - INFO - **********
+root - INFO - parsed input parameters:
+root - INFO - {
+  "agg_to_water": true,
+  "mode": "train",
+  "epochs": 45,
+  "batch": 5,
+  "resume_from_epoch": 0,
+  "input_channels": 11,
+  "output_channels": 11,
+  "hidden_channels": 16,
+  "weight_param": 1.03,
+  "lr": 0.0002,
+  "decay": 0,
+  "reduce_lr_on_plateau": 0,
+  "lr_steps": [
+    40
+  ],
+  "checkpoint_path": "/home/henry/Documents/marine-debris/semantic_segmentation/SegNet/trained_models",
+  "eval_every": 1,
+  "num_workers": 1,
+  "pin_memory": false,
+  "prefetch_factor": 1,
+  "persistent_workers": true,
+  "tensorboard": "tsboard_segm"
+}
+root - INFO - **********
+root - INFO - parsed input parameters:
+root - INFO - {
+  "agg_to_water": true,
+  "mode": "train",
+  "epochs": 45,
+  "batch": 5,
+  "resume_from_epoch": 0,
+  "input_channels": 11,
+  "output_channels": 11,
+  "hidden_channels": 16,
+  "weight_param": 1.03,
+  "lr": 0.0002,
+  "decay": 0,
+  "reduce_lr_on_plateau": 0,
+  "lr_steps": [
+    40
+  ],
+  "checkpoint_path": "/home/henry/Documents/marine-debris/semantic_segmentation/SegNet/trained_models",
+  "eval_every": 1,
+  "num_workers": 1,
+  "pin_memory": false,
+  "prefetch_factor": 1,
+  "persistent_workers": true,
+  "tensorboard": "tsboard_segm"
+}
+root - INFO - **********
+root - INFO - parsed input parameters:
+root - INFO - {
+  "agg_to_water": true,
+  "mode": "train",
+  "epochs": 45,
+  "batch": 5,
+  "resume_from_epoch": 0,
+  "input_channels": 11,
+  "output_channels": 11,
+  "hidden_channels": 16,
+  "weight_param": 1.03,
+  "lr": 0.0002,
+  "decay": 0,
+  "reduce_lr_on_plateau": 0,
+  "lr_steps": [
+    40
+  ],
+  "checkpoint_path": "/home/henry/Documents/marine-debris/semantic_segmentation/SegNet/trained_models",
+  "eval_every": 1,
+  "num_workers": 1,
+  "pin_memory": false,
+  "prefetch_factor": 1,
+  "persistent_workers": true,
+  "tensorboard": "tsboard_segm"
+}
+root - INFO - Training loss was: 2.2764880506037293
+root - INFO - 
+
+root - INFO - Test loss was: 2.1958586087610708
+root - INFO - STATISTICS AFTER EPOCH 1: 
+
+root - INFO - Evaluation: {'macroPrec': 0.09524513600965195, 'microPrec': 0.16466293136620022, 'weightPrec': 0.21051554394063388, 'macroRec': 0.18413783391076208, 'microRec': 0.16466293136620022, 'weightRec': 0.16466293136620022, 'macroF1': 0.09398554779086302, 'microF1': 0.16466293136620022, 'weightF1': 0.10868468684137932, 'subsetAcc': 0.16466293136620022, 'IoU': 0.05432731347835751}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.891502161534444
+root - INFO - 
+
+root - INFO - Test loss was: 2.0282717172036056
+root - INFO - STATISTICS AFTER EPOCH 2: 
+
+root - INFO - Evaluation: {'macroPrec': 0.224582615946139, 'microPrec': 0.1944749462698614, 'weightPrec': 0.5207720134664487, 'macroRec': 0.2298051044933321, 'microRec': 0.1944749462698614, 'weightRec': 0.1944749462698614, 'macroF1': 0.14631409045354993, 'microF1': 0.1944749462698614, 'weightF1': 0.1305183729199029, 'subsetAcc': 0.1944749462698614, 'IoU': 0.08850061489172713}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.7228794431136734
+root - INFO - 
+
+root - INFO - Test loss was: 1.9647526670722422
+root - INFO - STATISTICS AFTER EPOCH 3: 
+
+root - INFO - Evaluation: {'macroPrec': 0.2195570340756265, 'microPrec': 0.1755215812146296, 'weightPrec': 0.6642341225469572, 'macroRec': 0.25620852216518375, 'microRec': 0.1755215812146296, 'weightRec': 0.1755215812146296, 'macroF1': 0.12869341823512384, 'microF1': 0.1755215812146296, 'weightF1': 0.12370387589890348, 'subsetAcc': 0.1755215812146296, 'IoU': 0.07637836041465892}
+root - INFO - Saving models
+root - INFO - Training loss was: 1.5879410199541868
+root - INFO - 
+
+root - INFO - Test loss was: 1.4842012618970009
+root - INFO - STATISTICS AFTER EPOCH 4: 
+
+root - INFO - Evaluation: {'macroPrec': 0.2812462452454578, 'microPrec': 0.18975420221302475, 'weightPrec': 0.7032320591867831, 'macroRec': 0.24641035319861507, 'microRec': 0.18975420221302475, 'weightRec': 0.18975420221302475, 'macroF1': 0.15791260610579075, 'microF1': 0.18975420221302472, 'weightF1': 0.12420088502914181, 'subsetAcc': 0.18975420221302475, 'IoU': 0.09595469415615815}
+root - INFO - Saving models

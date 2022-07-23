@@ -1,0 +1,18 @@
+name: marida-ML
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python == 3.7.10
+  - pytorch == 1.7
+  - gdal == 2.3.3
+  - rasterio == 1.0.21
+  - scikit-learn == 0.24.2
+  - numpy == 1.20.2
+  - tensorboard == 1.15
+  - torchvision == 0.8.0
+  - scikit-image == 0.18.1
+  - pandas == 1.2.4
+  - pytables == 3.6.1
+  - tqdm == 4.59.0

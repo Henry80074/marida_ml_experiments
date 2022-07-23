@@ -1,0 +1,7 @@
+/data
+/docs
+/multi-label/resnet/trained_models
+/semantic_segmentation/DeepLabV3+/trained_models
+/semantic_segmentation/SegNet/trained_models
+/semantic_segmentation/unet/trained_models
+*.pth
